@@ -1,0 +1,13 @@
+I know this is a weird name, but its an acronym. Llama stands for Linked-List Array Mixed Amalgamated Stack.
+
+Each node has an array of a given size and the last node is the top of the stack.
+
+The driver for this was one the the test drivers given to us. This driver includes the OvCoInt files (Overly Complicated Integers).
+
+The functions for this project include:
+-size() returns the size od the stack
+-push() pushes to the stack
+-pop() pops from the stack
+-swap() swaps the top two items in the stack
+-rot() rotates so that the third from the top item is at the top of the stack
+-peek() returns the value of the item in a specific spot
