@@ -1,0 +1,12 @@
+This project is a binary search tree. It is able to read in from an inputs.txt and places each element into a binary tree. 
+This program is also able to read in a commands.txt file and exicutes said command on the search tree.
+
+The commands include:
+-NthElement() returns the value of the nth element that is in the in-order traversal
+-Rank() returns the node that is in a specific index in-order traversal
+-Median() returns the value median node
+-IsPerfect() checks the see if the tree is a perfect tree
+-PrintLevels() prints the tree level by level
+-RemoveResidue() removes the excess NULL nodes from the tree when running the printlevels function. This is to make sure there are no memeory leaks.
+
+If any errors occure whaile running the program, such as a NodeNotFound/ItemNotFound exception, it will output the errors into an errors.txt file.
